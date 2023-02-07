@@ -1,0 +1,47 @@
+:root {
+    --cyan: #00FFFF;
+    --light-green: #90EE90;
+    --red: #FF0000;
+    --light-blue: #ADD8E6;
+}
+
+body {
+    background-color: var(--light-blue);
+}
+
+.Title {
+    color: var(--red);
+    text-align: center;
+}
+
+#recipes {
+    list-style: none;
+    text-align: center;
+    display: grid;
+    justify-content: center;
+}
+
+.recipe {
+    background-color: var(--light-green);
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+.recipe-link {
+    text-decoration: none;
+    text-align: center;
+}
+
+.bRecipe {
+    background-color: var(--light-green);
+    margin: 15px;
+    border-radius: 10px;
+    width: 250px;
+    padding: 10px;
+}
+
+.description {
+    text-align: center;
+}
